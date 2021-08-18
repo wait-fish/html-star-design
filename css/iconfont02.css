@@ -1,0 +1,29 @@
+@font-face {font-family: "iconfont02";
+  src: url('iconfont02.eot?t=1608621109364'); /* IE9 */
+  src: url('iconfont02.eot?t=1608621109364#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAQAAAsAAAAACEAAAAOxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDHAqDeIM6ATYCJAMQCwoABCAFhG0HShsuB8gekiSQQIEfKFAFETjF8VCNvb692wCgApSZWB4fHh8usDC1ZVdjq6prNIMRfygvm7TObun0hIrOphOswoOzJ/EH/+5V0L/73lb1/8Ex00UJ5tlsLtmBAxwl0IAyv4MkhPEfw6msClxU/X09gXbTdkB2MvLKgJWEywJxk6FwYFVSy57c0Co0t+zNEeQyMNdaHpm0AF7Efx//hYQVRVOFa3cv0ptB0k/1PGEqG2V1IQJw1jNCPUTFCiCJq1bzCdM0vMJUu51sZg3QSj8p/FTPuc8TxsC9i7gV/uURqkI0w+xOsAqi+sQ4Po3glzuNym9CrXB0Lm5FB14C3jLs4L2apDKDKKOrH1W2jSsb7c6Bqoeo1ufGDZfsO2/I11Hbx799G27eRNHHNw23FIrXv3zqUfnbuXdehrsvzz6/jaPynRfnXt0z1h54OKeamPG+LXs8mMWn5/2a3onrGzIMV/YOygM1PT1lvb3l/f2VfX1Vn7sM3ec65Y4DFX/6EUMfEs72EOTeyYpz/YnlN869M6j6+irGMUffo6dn7essgjw4jyAb4f6eq483KI3ulRv8l4pEheeaogjh8aQisBi8tz3a3S7IaGm/+NH34+Jfu2i7xVe+nxb9WCFI33uLOyahLsQIY/y1Hdf4whj82I6dtdPOK95bBCOSTCUFU0sFCE0jBcQImUFDfh9nLqwgrDCtIA1E3E3/8d1jHRGZGMBVVXEBh0VRddVO7vBOvtoJJEbCDVf71pz28Pf4cpExuXAeUSNMqGBMSHn+fCBQw81AEYCG2le3A0C9a/L/D55n42tVVaNd3D8rxSvs+mD5Kzx2N2TDePa/xLE5f2dd1gPQmA0aDzWZlkivNMenSevM+aqCdu1ocHu/sTWkQ3Y2odVQDkWLKahazSATuwJNOqxCs1br0G5Z5uEOAwSmItuw5ASD0OsTFN3eQNWrFZnYUWgybBWa9YYptDsOpzM7zAWDpgoQl2AzptqHMQSrJ4VOQpPcEkjt0uJCkRcTK6AgMj4sOCCoGsuEeiissUHcTYVIEomRAqvDMtjNoFbLYpzAqiEhBdCSxMUEBpJtXxRAsDqA2iaAcBKoGUZlHwyDwNIjw84StPb7JSDKLlo4oaelTV8BEoiY0THBAgSNQGaK9aNanmWyaDdKCImElBaRBCwdTAY3QloKszBc+yw1iCAJQM8IcmIEQjtyrDhgf6nuEx6CdviwjBI1Mpp0PaBZjmP01E4CFyTLfbheXSi1ENld4i4WAAAAAA==') format('woff2'),
+  url('iconfont02.woff?t=1608621109364') format('woff'),
+  url('iconfont02.ttf?t=1608621109364') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont02.svg?t=1608621109364#iconfont02') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont02 {
+  font-family: "iconfont02" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-shopping-cart:before {
+  content: "\e56a";
+}
+
+.icon-yanjing:before {
+  content: "\e763";
+}
+
+.icon-sousuo:before {
+  content: "\e618";
+}
+

@@ -1,0 +1,67 @@
+/* <!-- 信息 --> */
+#xinxi ul{
+	border: 1px solid #BDBDBD;
+	border-radius: 5px;
+}
+#xinxi ul>li{
+	padding: 20px;
+	position: relative;
+}
+#xinxi ul>li+li{
+	border-top: 1px solid #BDBDBD;
+}
+#xinxi ul>li h5{
+	font-weight: bold;
+}
+#xinxi ul>li p{
+	font-size: 14px;
+}
+#xinxi ul>li>span{
+	position: absolute;
+	right: 5%;
+	top: 20%;
+}
+#xinxi ul>li li{
+	margin-left: 10px;
+	text-align: center;
+	line-height: 40px;
+	float: left;
+	width: 40px;
+	height: 40px;
+	background-color: #000;
+	border-radius: 50%;
+}
+#xinxi ul>li li>a{
+	color: #fff;
+	text-decoration: none;
+}
+#xinxi .row input{
+	width: 100%;
+	margin-bottom: 30px;
+	outline: none;
+	border: 1px solid #DDDDDD;
+	border-radius: 5px;
+	height: 50px;
+	padding: 0 10px;
+}
+#xinxi .row button{
+	box-sizing: border-box;
+	border: none;
+	width: 120px;
+	height: 50px;
+	outline: none;
+	border-radius: 5px;
+	background-color: #FEBC35;
+	font-weight: bold;
+}
+@media (max-width: 992px) {
+	#xinxi .row button{
+		margin: 0 auto;
+		width: 300px;
+	}
+}
+#xinxi .row button:hover{
+	background-color: #000;
+	color: #fff;
+	transition: 0.5s;
+}

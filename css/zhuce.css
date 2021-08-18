@@ -1,0 +1,117 @@
+
+#zhuce{
+	position: relative;
+}
+#zhuce::before{
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: rgba(0,0,0,.55);
+}
+.navbar-brand {
+	font-weight: bold;
+	font-size: 30px;
+	color: #fff;
+}
+.navbar-brand:hover{
+	color: #fff;
+}
+ .navbar-brand .my-logo {
+	color: #FEBC35;
+}
+/* 注册框 */
+
+#zhuce form{
+	margin: 0 auto;
+	position: relative;
+}
+#zhuce form>div{
+	margin-bottom: 5%;
+}
+#zhuce form span{
+	display: inline-block;
+	width: 100px;
+	color: #fff;
+	margin-left: 15%;
+}
+#zhuce form .test{
+	width: 20%; 
+	margin-right: 5px;
+}
+@media (max-width:280px) {
+	#zhuce form span{
+		width: 80px;
+	}
+	#zhuce form .test{
+		width: 125px;
+	}
+}
+#zhuce form input{
+	outline: none;
+	border: none;
+	background-color: transparent;
+	border-bottom: 1px solid #fff;
+}
+ @media (max-width:280px) {
+	#zhuce form .testgo{
+		display: block;
+		margin: 10px auto 0;
+	}
+}
+#zhuce .tt{
+	width: 50%;
+	color: #fff;
+}
+.row{
+	transform: translateY(10%);
+}
+#zhuce .in{
+	display: flex;
+	justify-content: center;
+}
+#zhuce .in input{
+	color: #000;
+	width: 250px;
+	height: 40px;
+	margin: 0 auto;
+	font-weight: bold;
+	background-color: #FEBC35;
+	border-radius: 5px;
+}
+#zhuce .in input:hover{
+	background-color: #000;
+	color: #fff;
+	border: 1px solid #fff;
+}
+#zhuce .testgo{
+	outline: none;
+	border: 1px solid #fff;
+	border-radius: 2px;
+	font-size: 14px;
+	width: 5rem;
+	padding: 2px;
+	background-color: #FFC631;
+}
+.app{
+	display: flex;
+	justify-content: center;
+}
+.app select{
+	width: 20%;
+	outline: none;
+}
+@media (max-width:768px) {
+	.app select{
+		width: 30%;
+	}
+}
+/* 提示 */
+#zhuce p{
+	color: #fff; 
+	font-size: 20px; 
+	display: none;
+}

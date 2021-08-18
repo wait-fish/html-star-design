@@ -1,0 +1,13 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a:link,a:visited{
+	text-decoration: none;
+}
+ul,ol{
+	list-style: none;
+}
+.myfade{
+	opacity: 0;
+}

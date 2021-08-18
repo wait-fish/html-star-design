@@ -1,0 +1,113 @@
+/* 公司 */
+#gongsi .row{
+	transform-style: preserve-3d;
+}
+#gongsi .row .shadow{
+	width: 100%;
+	height: 400px;
+	background: url(../images/g4.jpg);
+	background-size: cover;
+	border: 10px solid #fff;
+	box-shadow: none!important;
+}
+#gongsi .row .shadow:hover{
+	transition: 0.3s;
+	perspective: 800px;
+	transform: rotatez(5deg) scale(1.1);
+	box-shadow: 5px 5px 5px rgba(0,0,0,.3)!important;
+}
+#gongsi .row .mybtn {
+	color: #000;
+	background-color: #FEBC35;
+	width: 200px;
+	height: 50px;
+	line-height: 38px;
+	font-size: 20px;
+}
+#gongsi .row .mybtn:hover {
+	background-color: #000;
+	color: #fff;
+}
+@media (max-width: 992px) {
+	#gongsi .row>div:first-child {
+		text-align: center;
+	}
+}
+#gongsi .row h1{
+	font-weight: bold;
+}
+#gongsi .row p {
+	color: #625D58;
+}
+#gongsi .row h6{
+	font-size: 14px;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+#gongsi .row h6::before{
+	content: "→";
+	margin-right: 10px;
+	font-size: 25px;
+	font-weight: bold;
+	color: #FEBC35;
+}
+/* <!-- 室内设计经验--> */
+#jingyan .row div:hover {
+	transform: translateY(-10px) scale(1.05);
+	transition: 0.3s;
+}
+
+#jingyan .row .iconfont {
+	font-size: 40px;
+	color: #FEBC35;
+}
+
+#jingyan .row a {
+	color: #FEBC35;
+	font-weight: bold;
+}
+#jingyan .mybox .media{
+	background-color: #fff;
+	border-radius: 5px;
+	margin: 20px auto;
+}
+#jingyan .mybox .media h5{
+	font-weight: bold;
+}
+#jingyan .mybox .media p{
+	color: #58585D;
+}
+/* 设计师 */
+#sheji .row>div>div{
+	position: relative;
+	overflow: hidden;
+}
+#sheji .row .main{
+	color: #fff;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	transform: translateY(100%);
+	transition: 0.1s;
+	background: linear-gradient(180deg, rgba(0,0,0,0) 1%, rgba(0,0,0,.5));
+}
+#sheji .row>div>div:hover .main{
+	transform: translateY(0);
+}
+#sheji .row>div>div:hover .main li:hover{
+	background-color: #CB982E;
+}
+#sheji .row .main li{
+	text-align: center;
+	line-height: 40px;
+	float: left;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #FEBC35;
+	margin: 0  10px;
+	cursor: pointer;
+}
+#sheji .row .main li>span{
+	font-size: 25px;
+}

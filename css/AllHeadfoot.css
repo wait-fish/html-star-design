@@ -1,0 +1,154 @@
+/* 返回顶部 */
+#top{
+	position: fixed;
+	bottom: 3%;
+	right: 2%;
+	z-index: 10;
+}
+#top>a{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background-color: #FEBC35;
+	border-radius: 5px;
+	color: #000000;
+	font-size: 20px;
+	text-align: center;
+	line-height: 40px;
+	text-decoration: none;
+}
+@media (max-width:992px) {
+	#top{
+		background-color: #000000;
+		display: none!important;
+	}
+}
+/* 头部 */
+header {
+	width: 100%;
+	position: relative;
+}
+header::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	bottom: 0;
+	background-color: rgba(0,0,0,.65);
+}
+header .container:last-child {
+	color: #fff;
+}
+header .container:last-child h1{
+	font-weight: bold;
+}
+#nav {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.25);
+	z-index: 1 !important;
+}
+@media (max-width: 992px) {
+	#nav{
+		background-color: rgba(0, 0, 0, 0.65);
+	}
+}
+#nav a {
+	color: #FFFFFF;
+}
+#nav .navbar-toggler {
+	background-color: #FEBC35;
+}
+#nav .navbar-brand {
+	font-weight: bold;
+	font-size: 30px;
+}
+#nav .navbar-nav {
+	margin: 0 auto;
+}
+#nav .nav-item {
+	font-size: 16px;
+}
+#nav .nav-item:hover {
+	color: #FEBC35;
+	transition: 0.5s;
+}
+#nav .navbar-brand .my-logo {
+	color: #FEBC35;
+}
+#nav .myicon a {
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	background: rgba(255, 255, 255, 0.25);
+	border-radius: 50%;
+	margin-right: 10px;
+	text-decoration: none;
+}
+
+#nav .myicon a:hover {
+	background-color: rgba(255, 255, 255, .7);
+	transition: .5s;
+	color: #FEBC35;
+}
+/* 页脚 */
+footer{
+	position: relative;
+	color: #fff;
+}
+footer>.bg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	bottom: 0;
+	background-color: rgba(0,0,0,.8);
+	z-index: 0;
+}
+footer .container{
+	position: relative;
+	z-index: 1;
+}
+footer .container h4{
+	font-weight: bold;
+}
+footer .container ul>li>a{
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	margin: 5px 0;
+}
+footer .container ul>li>a:hover{
+	color: #FEBC35;
+	transition: 0.3s;
+}
+footer .container .myicon span{
+	font-size: 25px;
+	cursor: pointer;
+	color: #000;
+}
+footer .container .myicon>a{
+	display: inline-block;
+	background-color: #FEBC35;
+	color: #000;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	text-decoration: none;
+	border-radius: 50%;
+	margin-right: 5px;
+}
+footer .container .myicon>a:hover{
+	background-color: #000000;
+	border: 1px solid #ccc;
+}
+footer .container .myicon>a:hover span{
+	color: #fff;
+	transition: 0.3s;
+}

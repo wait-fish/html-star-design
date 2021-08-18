@@ -1,0 +1,103 @@
+
+#login{
+	position: relative;
+}
+#login::before{
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: rgba(0,0,0,.5);
+}
+.navbar-brand {
+	font-weight: bold;
+	font-size: 30px;
+	color: #fff;
+}
+.navbar-brand:hover{
+	color: #fff;
+}
+ .navbar-brand .my-logo {
+	color: #FEBC35;
+}
+/* 登录框 */
+
+#login form{
+	margin: 0 auto;
+	position: relative;
+}
+#login form>div{
+	margin-bottom: 5%;
+}
+#login form span{
+	display: inline-block;
+	width: 70px;
+	color: #fff;
+	margin-left: 15%;
+}
+#login form input{
+	outline: none;
+	border: none;
+	background-color: transparent;
+	border-bottom: 1px solid #fff;
+}
+ @media (max-width:280px) {
+	#login form .testgo{
+		display: block;
+		margin: 10px auto 0;
+	}
+}
+#login .tt{
+	width: 50%;
+	color: #fff;
+}
+.row{
+	transform: translateY(50%);
+}
+#login .in{
+	display: flex;0
+	justify-content: center;
+}
+#login .in input{
+	color: #000;
+	width: 100px;
+	height: 40px;
+	margin: 0 auto;
+	font-weight: bold;
+	background-color: #FEBC35;
+	border-radius: 5px;
+}
+#login .in input:hover{
+	background-color: #000;
+	color: #fff;
+	border: 1px solid #fff;
+}
+#login .testgo{
+	outline: none;
+	border: 1px solid #fff;
+	border-radius: 2px;
+	font-size: 14px;
+	width: 5rem;
+	padding: 2px;
+	background-color: #FFC631;
+}
+.zhuce{
+	position: absolute;
+	bottom: 5%;
+	right: 8%;
+	font-size: 14px;
+	color: #fff;
+	text-decoration: underline;
+}
+@media (max-width: 280px) {
+	.zhuce{
+		right: 1%;
+	}
+}
+.zhuce:hover{
+	color: #fff;
+	text-decoration: underline;
+}

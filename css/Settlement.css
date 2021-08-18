@@ -1,0 +1,109 @@
+header,footer{
+	width: 100%;
+}
+/* 头部 */
+header{
+	background-color: #444444;
+	color: #fff;
+}
+header a {
+	color: #FFFFFF;
+}
+header .row>div{
+	position: relative;
+}
+header .navbar-brand {
+	position: absolute;
+	font-weight: bold;
+	font-size: 30px;
+	left: 0;
+}
+header .my-logo{
+	color: #FEBC35;
+}
+header .row{
+	height: 60px;
+}
+
+header .row h3{
+	line-height: 60px;
+}
+header .row h6{
+	line-height: 60px;
+}
+/*商品列表*/
+main .row{
+	border-bottom: 1px solid #f2f2f2;
+	position: relative;
+	font-size: 20px;
+}
+main .row>div{
+	display: flex;
+	align-items: center;
+}
+main .row button{
+	outline: none;
+	border: none;
+	font-size: 20px;
+	padding: 0 5px;
+	background-color: #F4F4F4;
+	border-radius: 5px;
+}
+main .row button:hover{
+	background-color: #ccc;
+}
+main .row input{
+	border: none;
+	width: 4rem;
+	text-align: center;
+}
+@media (max-width: 992px) {
+	main .row .btn{
+		width: 60%;
+		height: 120px;
+		position: absolute;
+		buttom: 0;
+		right: 50px;
+	}
+}
+@media  (max-width: 720px) {
+	main .row .btn{
+		transform: translateY(50%);
+	}
+}
+/* 结算 */
+footer{
+	height: 60px;
+	border: 1px solid #ccc;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+footer .row>div{
+	line-height: 60px;
+}
+footer .row>div a{
+	color: #666666;
+}
+footer .row>div a:hover{
+	color: #FEBC35;
+}
+footer .row .count{
+	font-size: 1.125rem;
+	font-weight: bold;
+	color: #FEBC35;
+}
+footer .row .allq{
+	font-size: 22px;
+	font-weight: bold;
+	color: #FEBC35;
+}
+footer .row button{
+	outline: none;
+	border: none;
+	width: 120px;
+	height: 60px;
+	color: #000;
+	background-color: #FEBC35;
+	font-weight: bold;
+}
